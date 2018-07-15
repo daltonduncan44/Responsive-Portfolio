@@ -96,9 +96,7 @@ a{
 	right: 128px;
 }
 
-#container{
 
-}
 /*golf image*/
 #ventura{
 	clear: both;
@@ -203,4 +201,58 @@ input[type="button"]{
 	position: absolute;
 	top: 277px;
 	left: 929px;
+}
+
+@media screen and (max-width: 980px) {
+	header {		
+		margin: auto;
+		width: auto;
+		font-size: auto;
+
+	}
+
+	h1 {
+		margin: 30px 0px 25px 40px;
+		width: auto;
+		font-size: auto;
+	}
+
+
+	#aboutMe{
+		margin: 40px;
+		width: auto;
+		font-size: auto;
+		padding: 20px;
+	}
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+	header {		
+		margin: auto;
+		width: auto;
+		font-size: auto;
+
+	}
+
+	h1 {
+		margin: auto;
+		width: auto;
+		font-size: auto;
+	}
+
+
+	#aboutMe{
+		margin: auto;
+		width: auto;
+		font-size: auto;
+	}
+
+
 }
